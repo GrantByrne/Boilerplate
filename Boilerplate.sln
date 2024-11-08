@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boilerplate.Web", "Boilerpl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boilerplate.Repository", "Boilerplate.Repository\Boilerplate.Repository.csproj", "{CCA16680-BAC6-4219-B56A-74A8F101692A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boilerplate.Service", "Boilerplate.Service\Boilerplate.Service.csproj", "{448BFE05-3C5A-4629-AA42-B15387460BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boilerplate.Service.Tests.Unit", "Boilerplate.Service.Tests.Unit\Boilerplate.Service.Tests.Unit.csproj", "{6B9F47A7-5D16-4ECF-AFCD-3070C814E1D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{CCA16680-BAC6-4219-B56A-74A8F101692A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCA16680-BAC6-4219-B56A-74A8F101692A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCA16680-BAC6-4219-B56A-74A8F101692A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448BFE05-3C5A-4629-AA42-B15387460BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448BFE05-3C5A-4629-AA42-B15387460BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448BFE05-3C5A-4629-AA42-B15387460BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448BFE05-3C5A-4629-AA42-B15387460BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9F47A7-5D16-4ECF-AFCD-3070C814E1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9F47A7-5D16-4ECF-AFCD-3070C814E1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9F47A7-5D16-4ECF-AFCD-3070C814E1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9F47A7-5D16-4ECF-AFCD-3070C814E1D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
