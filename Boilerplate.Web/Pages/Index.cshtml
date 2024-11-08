@@ -1,0 +1,65 @@
+﻿@page
+@{
+    ViewData["Title"] = "Welcome to My Landing Page";
+}
+
+<div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to My Product</h1>
+    <p class="lead">The ultimate solution to streamline your workflow.</p>
+    <a href="#features" class="btn btn-primary btn-lg">Learn More</a>
+</div>
+
+<section id="features" class="mt-5">
+    <h2 class="text-center mb-4">Features</h2>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <i class="fas fa-cogs fa-3x mb-3"></i>
+            <h4>Feature 1</h4>
+            <p>Describe the feature here and how it benefits users.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <i class="fas fa-shield-alt fa-3x mb-3"></i>
+            <h4>Feature 2</h4>
+            <p>Describe the feature here and how it benefits users.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <i class="fas fa-cloud fa-3x mb-3"></i>
+            <h4>Feature 3</h4>
+            <p>Describe the feature here and how it benefits users.</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="mt-5">
+    <h2 class="text-center mb-4">What Our Customers Say</h2>
+    <div class="carousel slide" data-ride="carousel" id="testimonialCarousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-4">"This product has transformed my workflow!"</p>
+                    <footer class="blockquote-footer">Jane Doe, Company Inc.</footer>
+                </blockquote>
+            </div>
+            <div class="carousel-item">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-4">"I can't imagine my day without it!"</p>
+                    <footer class="blockquote-footer">John Smith, TechCorp</footer>
+                </blockquote>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+<section id="contact" class="mt-5 text-center">
+    <h2>Get in Touch</h2>
+    <p>Contact us today to see how we can help you.</p>
+    <a href="mailto:contact@mylandingpage.com" class="btn btn-outline-primary">Email Us</a>
+</section>
